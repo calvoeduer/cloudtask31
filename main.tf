@@ -17,6 +17,7 @@ resource "aws_instance" "task31" {
 
     tags = {
         "Env" = "Dev"
+        "Name" = "Task31"
     }
 }
 
